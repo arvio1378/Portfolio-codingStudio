@@ -120,6 +120,23 @@ section::before {
     content: 'Games Project';
 }
 
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
 #arrow {
     animation: 2s upDown infinite;
 }
